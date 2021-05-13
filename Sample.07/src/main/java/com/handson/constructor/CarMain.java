@@ -10,5 +10,6 @@ class CarMain {
 
         // 定義したコンストラクタを呼び出す
         Car2 car2 = new Car2("プリウス");
+//        System.out.println(car2.name);
     }
 }
