@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Sample08-handson-TryCatchSample" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.handson.TryCatchSample" />
+    <module name="Sample.08" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PostalCodeDictionary-answer-Main" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.answer.Main" />
+    <module name="PostalCodeDictionary" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
