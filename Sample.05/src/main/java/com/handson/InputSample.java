@@ -7,7 +7,8 @@ class InputSample {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // TODO nextLineメソッドを使う
-
+        String name = sc.nextLine();
+        System.out.println(name);
 
     }
 }
