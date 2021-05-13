@@ -6,7 +6,7 @@ class TypeSample {
         int sumOfAge = 68 + 41 + 53 + 62 + 20;
         int numOfPeople = 5;
         // TODO 変数sumOfAgeの型をdoubleにキャストする
-
-
+        double average = (double) sumOfAge/numOfPeople;
+        System.out.println(average);
     }
 }
