@@ -19,6 +19,7 @@ class TryCatchSample {
             System.out.println("合計点は" + sum + "点です。");
         } catch (IOException e) {
             System.out.println("ファイルの読み込みに失敗しました。");
+            e.printStackTrace();
         }
         System.out.println("プログラムの実行が完了しました。");
     }
