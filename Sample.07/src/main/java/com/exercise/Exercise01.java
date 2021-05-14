@@ -14,19 +14,19 @@ class Exercise01 {
         //     = ポイントを使用する時の上限は現在所持しているポイント数
 
         // (1) インスタンス化
-        // Customer tanaka = new Customer("田中", 1000); // ☆ コメントアウトを解除する
+         Customer tanaka = new Customer("田中", 1000); // ☆ コメントアウトを解除する
 
         // (2) ポイント加算
-        // tanaka.addPoint(100); // ☆ コメントアウトを解除する
+         tanaka.addPoint(100); // ☆ コメントアウトを解除する
 
         // (3) ポイントを利用し、残りポイントを取得する
         // 残りポイントはコンソールに出力する
-        // int current = tanaka.usePoint(200); // ☆ コメントアウトを解除する
-        // System.out.println(current); // ☆ コメントアウトを解除する
+         int current = tanaka.usePoint(200); // ☆ コメントアウトを解除する
+         System.out.println(current); // ☆ コメントアウトを解除する
 
         // (4) 名前と現在のポイント数をコンソールに出力する
-        // String name = tanaka.getName(); // ☆ コメントアウトを解除する
-        // int point = tanaka.getPoint(); // ☆ コメントアウトを解除する
-        // System.out.println(name + " 様 (" + point + " ポイント)"); // ☆ コメントアウトを解除する
+         String name = tanaka.getName(); // ☆ コメントアウトを解除する
+         int point = tanaka.getPoint(); // ☆ コメントアウトを解除する
+         System.out.println(name + " 様 (" + point + " ポイント)"); // ☆ コメントアウトを解除する
     }
 }
