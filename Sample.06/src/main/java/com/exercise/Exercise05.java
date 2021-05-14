@@ -11,15 +11,21 @@ class Exercise05 {
         // 料金の一覧はテキストを参照する
         // コンソールに「(年齢)歳の料金は(料金)円です」と出力する
 
+        int fee;
 
+        for (Integer age : ageList) {
+            if (age >= 70) {
+                fee = 250;
+            } else if (age >= 20) {
+                fee = 400;
+            } else if (age >= 7) {
+                fee = 200;
+            } else {
+                fee = 0;
+            }
 
-
-
-
-
-
-
-
+            System.out.println(age + "歳の料金は" + fee + "円です");
+        }
 
     }
 }

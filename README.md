@@ -16,6 +16,6 @@
 - [x] Sample3
 - [x] Sample4
 - [x] Sample5
-- [ ] Sample6
+- [x] Sample6
 - [ ] Sample7
 - [ ] Sample8
